@@ -1,0 +1,384 @@
+._pNavBar {
+    padding-top:5px;
+    position:fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    color:#BDBDBD;
+}
+._pNavBarUpdate {
+    width:0;
+    height:44px;
+    float:right;
+    margin-top:-5px;
+    background:#000;
+    box-shadow: rgba(0, 0, 0, 0.65098) 0 0 8px 0;
+    overflow:hidden;
+    font-size:12px;
+    line-height:100%;
+    border-top-right-radius:10px;
+}
+._pNavBarUpdate img {
+    opacity:0.5;
+}
+._pNavBarUpdate img:hover {
+    cursor:pointer;
+    opacity:1;
+}
+._pNavBarUpdateContainer {
+    float:left;
+    width:175px;
+    margin-top:3px;
+    height:100%;
+}
+._pNavBarCog {
+    float:left;
+    border:1px #666 solid;
+    border-radius:10px;
+    margin-left:-39.5px;
+    margin-top:8px;
+    width:35px;
+    height:22px;
+    background:#000;
+}
+._pNavBarCogContainer {
+    width:160px;
+    margin-left:20px;
+    height:100%;
+    margin-right:20px;
+
+}
+._pNavBarCog img {
+    margin-top: 2.5px;
+    margin-left: 15px;
+
+}
+._pNavBarCog img:hover {
+    cursor:pointer;
+}
+._pNavBarSettings {
+    border-top-left-radius:10px;
+    float:left;
+    width:0;
+    height:44px;
+    background:#000;
+    margin-left:0;
+    margin-top:-5px;
+    box-shadow: rgba(0, 0, 0, 0.65098) 0 0 8px 0;
+    overflow:hidden;
+}
+._pNavBarSettingsContainer {
+    width:160px;
+    margin-left:20px;
+    height:100%;
+    margin-right:20px;
+}
+._pNavBarHelper {
+    position: absolute;
+    margin-top: -80px;
+    width: 650px;
+    height: 80px;
+    left: 17%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+    background: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.65098) 0 0 8px 0;
+}
+._pNavBarHelper center img {
+    opacity:0.5;
+}
+._pNavBarHelper center img:hover {
+    cursor:pointer;
+    opacity:1;
+}
+._pNavBarHelperContainer {
+    width:600px;
+    margin-left:25px;
+}
+._pNavInfo {
+    border-left: 1px solid #444;
+    padding-left:10px;
+}
+._pNavBar ul li .lvl2,._pNavBar ul li .lvl3 {
+    bottom: 44px;
+}
+._pNavOpts {
+    border-right: 1px solid #444;
+    padding-right:10px;
+    margin-top:-5px;
+}
+
+._pCheckbox input[type="checkbox"] {
+    margin: 1px 0 0;
+    line-height: normal;
+    vertical-align:-2px;
+}
+._pCheckbox input[type="checkbox"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+._pRightArrow {
+    padding-top:6px;
+}
+._pCheckBox label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+    cursor: pointer;
+}
+._pCheckbox + ._pCheckbox {
+    margin-top: -5px;
+}
+._pContainer {
+    position:absolute;
+    border-radius:5px;
+    border: solid 5px black;
+    width:1000px;
+    height:380px;
+    overflow:hidden !important;
+    display:none;
+}
+._pLoadOverlay {
+    width:100%;
+    height:350px;
+    display:none;
+}
+._pHeader {
+    height:30px;
+    width:100%;
+    background:#000;
+}
+._pContent {
+    height:305px;
+    width:100%;
+
+}
+._pDescription {
+    float:left;
+    height:100%;
+    width:590px;
+    margin:0;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+._pImagePreview {
+    position: relative;
+    width:400px;
+    height: 100%;
+    border-right:1px solid black;
+    text-align:center;
+    float:left;
+    overflow:hidden;
+}
+._pImagePreview ul {
+    position:relative;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+._pImagePreview ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 100%;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+}
+._pImagePreview img {
+    width:100%;
+    height:100%;
+}
+._pImagePreview a._pNext, ._pImagePreview a._pPrev {
+    position:absolute;
+    float:left;
+    z-index: 999;
+    display: block;
+    top:40%;
+    width: 50px;
+    height: 25px;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+._pImagePreview a._pPrev:hover, ._pImagePreview a._pNext:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+._pImagePreview a._pPrev {
+    border-radius: 0 2px 2px 0;
+}
+._pImagePreview a._pNext {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+._pLogo {
+    float:left;
+    margin-top:5px;
+    margin-left:15px;
+    padding-right:15px;
+    margin-right:15px;
+    border-right:1px solid #fff;
+}
+._pTitle {
+    float:left;
+    padding-top:3px;
+    color:#DDD;
+    font-size:18px;
+    font-weight:800;
+}
+._pClose {
+    width:20px;
+    height:20px;
+    float:right;
+    text-align:center;
+    font-size:15px;
+    color:#FFF;
+    position:relative;
+    margin-right:10px;
+    margin-top:2px;
+}
+._pClose:hover {
+    background:#363535;
+    cursor:pointer;
+}
+._pClose a:hover {
+    background:#363535;
+    text-decoration:none;
+    cursor:pointer;
+}
+._pClose a {
+    color:#FFF;
+}
+._pDownloadSection {
+    height:100%;
+    border-top:solid 1px black;
+    width:400px;
+    margin-right:10px;
+    padding-right:10px;
+    border-right:1px solid black;
+    float:left;
+}
+._pDownloadSetSection {
+    height:100%;
+    border-top:solid 1px black;
+    width:100%;
+    margin-right:10px;
+    padding-right:10px;
+    border-right:1px solid black;
+}
+._pOverlay {
+    z-index:19;
+    opacity:0.5;
+    background:#000;
+    width:100%;
+    height:100%;
+    position:fixed;
+    display:none;
+}
+._pInfoContainer {
+    z-index:20;
+    position:fixed;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border:5px solid #000;
+    width:400px;
+    height:500px;
+    border-radius:5px;
+    background:#fff;
+    overflow:hidden;
+    display:none;
+}
+._pInfoHeader {
+    height:30px;
+    background:#000;
+    color:#FFF;
+    text-align:center;
+    font-size:20px;
+    width:100%;
+
+
+}
+._pInfoHeader a {
+    float: right;
+    right:0;
+    position:absolute;
+
+}
+._pInfoContent {
+    width:auto;
+    height:450px;
+    margin: 15px 5px;
+    overflow:hidden;
+    user-select: none;
+}
+._pInfoContent table[align=center] {
+    margin:0 auto;
+}
+._pInfoContent table {
+    border:0;
+}
+._pInfoOverlay {
+    position:absolute;
+    height:470px;
+    width:100%;
+}
+._pInfoContent div table tbody tr td {
+    border:0;
+    padding:2px;
+}
+._pInfoContent div table tbody tr td ul,._pContent div table tbody tr td li {
+    padding:0;
+    margin: 0 0 0 20px;
+    list-style-type: disc;
+    border:0;
+}
+._pInfoContent div {
+    margin-top:10px;
+}
+div#_pUpdateButton {
+    z-index:50;
+}
+._pUpdateContainer {
+    width:300px;
+    height:150px;
+    border:#000 5px solid;
+    background:#fff;
+    position:fixed;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    border-radius:5px;
+    display:none;
+    z-index:50;
+}
+._pUpdateContent {
+    width:290px;
+    height:110px;
+    margin-left:5px;
+}
+._pUpdateContent div {
+    margin-top:5px;
+}
